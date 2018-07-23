@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my420dp"
+    android:layout_height="@dimen/my130dp"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my20dp"
+        android:layout_marginTop="@dimen/my15dp"
+        android:text="@string/Hint"
+        android:textColor="@color/colorBlack2"
+        android:textSize="@dimen/my16dp"/>
+
+    <TextView
+        android:id="@+id/lan_contant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/my15dp"
+        android:paddingLeft="@dimen/my10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/my14dp"
+        android:text="@string/SelectLanguage"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/lan_cancel"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="match_parent"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my12dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/my80dp"
+            />
+        <TextView
+            android:id="@+id/lan_next"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="match_parent"
+            android:text="@string/Continue"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my12dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

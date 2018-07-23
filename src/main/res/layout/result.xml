@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/result_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my60dp"
+            android:background="@color/colorBlack3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/my20dp"
+                android:text="@string/Records"
+                android:textSize="@dimen/my30dp" />
+
+            <ImageButton
+                android:id="@+id/cancel_result"
+                android:layout_width="@dimen/my60dp"
+                android:layout_height="@dimen/my60dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/my20dp"
+                android:background="@color/colorBlack3"
+                android:src="@drawable/abc_ic_clear_mtrl_alpha" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/qrCode"
+            android:layout_width="@dimen/my220dp"
+            android:layout_height="@dimen/my220dp"
+            android:layout_marginLeft="@dimen/my125dp"
+            android:layout_marginTop="@dimen/my140dp" />
+
+        <TextView
+            android:layout_width="@dimen/my220dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qrCode"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/my120dp"
+            android:layout_marginTop="@dimen/my30dp"
+            android:gravity="center"
+            android:text="@string/ScanQRcode"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my24dp" />
+
+        <LinearLayout
+            android:id="@+id/result_layout1"
+            android:layout_width="@dimen/my480dp"
+            android:layout_height="@dimen/my120dp"
+            android:layout_marginLeft="@dimen/my150dp"
+            android:layout_marginTop="@dimen/my140dp"
+            android:layout_toRightOf="@+id/qrCode"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/my2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGray" />
+
+            <LinearLayout
+                android:layout_width="@dimen/my158dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/my130dp"
+                    android:layout_height="@dimen/my50dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/sport_record_time"
+                    android:gravity="center"
+                    android:text="@string/Time"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my24dp" />
+
+                <TextView
+                    android:id="@+id/tvResult_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/my20dp"
+                    android:gravity="center"
+                    android:text="00:00:00"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="@dimen/my28dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/my2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGray" />
+
+            <LinearLayout
+                android:layout_width="@dimen/my158dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/my130dp"
+                    android:layout_height="@dimen/my50dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/sport_record_distace"
+                    android:gravity="center"
+                    android:text="@string/distance"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my24dp" />
+
+                <TextView
+                    android:id="@+id/tvResult_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/my20dp"
+                    android:gravity="center"
+                    android:text="1.5km"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="@dimen/my28dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/my2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGray" />
+
+            <LinearLayout
+                android:layout_width="@dimen/my157dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/my130dp"
+                    android:layout_height="@dimen/my50dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/sport_record_heat"
+                    android:gravity="center"
+                    android:text="@string/Calories"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my24dp" />
+
+                <TextView
+                    android:id="@+id/tvResult_calories"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/my20dp"
+                    android:gravity="center"
+                    android:text="000cal"
+                    android:textColor="@color/colorRed2"
+                    android:textSize="@dimen/my28dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/my2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/my480dp"
+            android:layout_height="@dimen/my120dp"
+            android:layout_below="@+id/result_layout1"
+            android:layout_marginLeft="@dimen/my150dp"
+            android:layout_marginTop="@dimen/my50dp"
+            android:layout_toRightOf="@+id/qrCode"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/MaxSpeed2"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my18dp" />
+
+                <TextView
+                    android:id="@+id/tvResult_maxSpeed"
+                    android:layout_width="@dimen/my0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/my20dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/AverageSpeed"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my18dp" />
+
+                <TextView
+                    android:id="@+id/tvResult_avgSpeed"
+                    android:layout_width="@dimen/my0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/my20dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/my18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/Share"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_weibo"
+                    android:layout_width="@dimen/my40dp"
+                    android:layout_height="@dimen/my40dp"
+                    android:layout_marginLeft="@dimen/my20dp"
+                    android:background="@drawable/weibo"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/btn_facebook"
+                    android:layout_width="@dimen/my40dp"
+                    android:layout_height="@dimen/my40dp"
+                    android:layout_marginLeft="@dimen/my15dp"
+                    android:background="@drawable/facebook" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

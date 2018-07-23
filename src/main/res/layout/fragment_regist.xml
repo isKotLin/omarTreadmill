@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Linear_userRegist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_yellow_pic"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal">
+        <EditText
+            android:id="@+id/et_registName"
+            android:layout_width="@dimen/my400dp"
+            android:layout_height="@dimen/my50dp"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="@dimen/my150dp"
+            android:paddingLeft="@dimen/my10dp"
+            android:hint="@string/Email"
+            android:textColorHint="@color/colorGray"
+            android:textSize="@dimen/my16dp"
+            android:textColor="@color/colorBlack2"
+            android:textCursorDrawable="@null"  />
+        <EditText
+            android:id="@+id/et_registPassword"
+            android:layout_width="@dimen/my400dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_marginTop="@dimen/my10dp"
+            android:background="@color/colorWhite"
+            android:paddingLeft="@dimen/my10dp"
+            android:hint="@string/Password"
+            android:textColorHint="@color/colorGray"
+            android:textSize="@dimen/my16dp"
+            android:textColor="@color/colorBlack2"
+            android:textCursorDrawable="@null"  />
+        <EditText
+            android:id="@+id/et_affirm"
+            android:layout_width="@dimen/my400dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_marginTop="@dimen/my10dp"
+            android:background="@color/colorWhite"
+            android:paddingLeft="@dimen/my10dp"
+            android:hint="@string/ConfirmPassword"
+            android:textColorHint="@color/colorGray"
+            android:textSize="@dimen/my16dp"
+            android:textColor="@color/colorBlack2"
+            android:textCursorDrawable="@null"  />
+        <Button
+            android:id="@+id/btn_regist"
+            android:layout_width="@dimen/my400dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_marginTop="@dimen/my10dp"
+            android:background="@color/colorGreen"
+            android:text="@string/Register"
+            android:textSize="@dimen/my20dp"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:id="@+id/btn_backTologin"
+            android:layout_width="@dimen/my400dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_marginTop="@dimen/my10dp"
+            android:background="@color/colorGreen"
+            android:text="@string/BackToLogin"
+            android:textSize="@dimen/my20dp"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+</LinearLayout>

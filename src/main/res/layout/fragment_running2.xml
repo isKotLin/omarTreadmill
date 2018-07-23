@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/running2Relative_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my60dp"
+        android:background="@color/colorBlack3">
+        <TextView
+            android:id="@+id/running2_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/my30dp"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/my80dp"
+        android:layout_height="@dimen/my210dp"
+        android:layout_marginTop="@dimen/my150dp"
+        android:layout_marginLeft="@dimen/my30dp"
+        android:background="@drawable/running_adjust_bg"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_running2_slope_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my70dp"
+            android:gravity="center"
+            android:background="@drawable/btn_add_false"
+            android:text="+"
+            android:textSize="@dimen/my50dp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my70dp"
+            android:gravity="center"
+            android:text="@string/incline"
+            android:textSize="@dimen/my16dp"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:id="@+id/btn_running2_slope_minus"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my70dp"
+            android:gravity="center"
+            android:background="@drawable/btn_minus_false"
+            android:text="—"
+            android:textSize="@dimen/my36dp"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/my80dp"
+        android:layout_height="@dimen/my210dp"
+        android:layout_marginTop="@dimen/my150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/my30dp"
+        android:background="@drawable/running_adjust_bg"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_running2_speed_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my70dp"
+            android:gravity="center"
+            android:background="@drawable/btn_add_false"
+            android:text="+"
+            android:textSize="@dimen/my50dp"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my70dp"
+            android:gravity="center"
+            android:text="@string/speed"
+            android:textSize="@dimen/my16dp"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:id="@+id/btn_running2_speed_minus"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my70dp"
+            android:gravity="center"
+            android:background="@drawable/btn_minus_false"
+            android:text="—"
+            android:textSize="@dimen/my36dp"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Relative_PreinstallColumnarView"
+        android:layout_width="@dimen/my700dp"
+        android:layout_height="@dimen/my300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/running2Relative_title"
+        android:layout_marginTop="@dimen/my20dp">
+
+        <com.vigorchip.omatreadmill.view.RunningView
+            android:id="@+id/rv_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/running2_stop_pause_layout"
+        android:layout_width="@dimen/my210dp"
+        android:layout_height="@dimen/my80dp"
+        android:layout_below="@+id/Relative_PreinstallColumnarView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/my20dp">
+        <Button
+            android:id="@+id/running2_stop"
+            android:layout_width="@dimen/my0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:text="@string/main_mode_stop"
+            android:textSize="@dimen/my28dp"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:id="@+id/running2_pause"
+            android:layout_width="@dimen/my0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorOrange"
+            android:text="@string/main_mode_pause"
+            android:textSize="@dimen/my28dp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/running2_pause_ing_layout"
+        android:layout_width="@dimen/my250dp"
+        android:layout_height="@dimen/my80dp"
+        android:layout_below="@+id/Relative_PreinstallColumnarView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/my20dp"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/running2_ing"
+            android:layout_width="@dimen/my0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:text="@string/main_mode_stopping"
+            android:textSize="@dimen/my28dp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+</RelativeLayout>

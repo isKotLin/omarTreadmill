@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my400dp"
+    android:layout_height="@dimen/my120dp"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my20dp"
+        android:layout_marginTop="@dimen/my15dp"
+        android:text="@string/Hint"
+        android:textColor="@color/colorBlack2"
+        android:textSize="@dimen/my16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/my15dp"
+        android:orientation="horizontal">
+
+        <com.github.rahatarmanahmed.cpv.CircularProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="@dimen/my40dp"
+            android:layout_height="@dimen/my40dp"
+            android:layout_marginLeft="@dimen/my5dp"
+            android:layout_gravity="center"
+            app:cpv_color="@color/colorGreen"
+            app:cpv_animAutostart="true"
+            app:cpv_indeterminate="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/my20dp"
+            android:textColor="@color/colorGray3"
+            android:textSize="@dimen/my14dp"
+            android:text="@string/SystemIsCleaning"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my400dp"
+    android:layout_height="@dimen/my250dp"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my20dp"
+        android:layout_marginTop="@dimen/my20dp"
+        android:gravity="center"
+        android:text="@string/Age"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/my18dp" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/my100dp"
+        android:layout_height="@dimen/my100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <com.contrarywind.view.WheelView
+            android:id="@+id/picker_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/my25dp">
+
+        <TextView
+            android:id="@+id/btn_cancel_age"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="@dimen/my40dp"
+            android:layout_marginRight="@dimen/my10dp"
+            android:layout_toLeftOf="@+id/btn_commit_age"
+            android:gravity="center"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my12dp" />
+
+        <TextView
+            android:id="@+id/btn_commit_age"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="@dimen/my40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/my10dp"
+            android:gravity="center"
+            android:text="@string/OK2"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my12dp" />
+    </RelativeLayout>
+
+</LinearLayout>

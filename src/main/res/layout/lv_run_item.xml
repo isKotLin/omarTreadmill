@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGreen">
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/my10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@mipmap/speed_slow" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="@dimen/my10dp"
+                android:id="@+id/item_starttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-5-10 19:41:56"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:textSize="@dimen/my10dp"
+                android:id="@+id/item_datatime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="星期四 夜跑"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/my12dp"
+                    android:layout_height="@dimen/my12dp"
+                    android:src="@mipmap/record_time" />
+
+                <TextView
+                    android:textSize="@dimen/my10dp"
+                    android:id="@+id/item_timeall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/my10dp"
+                    android:text="00:12:24"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my30dp"
+                android:layout_height="@dimen/my30dp"
+                android:src="@mipmap/record_distance" />
+
+            <TextView
+                android:textSize="@dimen/my15dp"
+                android:id="@+id/item_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/my20dp"
+                android:gravity="clip_vertical"
+                android:text="0.9km"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my30dp"
+                android:layout_height="@dimen/my30dp"
+                android:src="@mipmap/record_calorie" />
+
+            <TextView
+                android:textSize="@dimen/my15dp"
+                android:id="@+id/itme_calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/my20dp"
+                android:gravity="clip_vertical"
+                android:text="96.3cal"
+                android:textColor="#ffffff"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray2"
+        android:layout_below="@+id/item_layout"/>
+</RelativeLayout>

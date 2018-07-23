@@ -1,0 +1,236 @@
+<resources>
+    <string name="Treadmill">Treadmill</string>
+    <string name="Start">Start</string>
+    <string name="OK1">Ok</string>
+    <string name="OK2">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Continue">Continue</string>
+    <string name="speed">Speed</string>
+    <string name="incline">Incline</string>
+    <string name="Isrunning">is running.</string>
+    <!--&lt;!&ndash;主页面&ndash;&gt;-->
+    <string name="main_mode_quick">Quick Mode</string>
+    <string name="main_mode_time">Time</string>
+    <string name="main_mode_distance">Distance</string>
+    <string name="main_mode_calories">Calorie</string>
+    <string name="main_mode_train">Training</string>
+    <string name="main_mode_live">Real Scene</string>
+    <string name="main_mode_startrun">Start</string>
+    <string name="main_mode_pause">Pause</string>
+    <string name="main_mode_stop">Stop</string>
+    <string name="main_mode_stopping">Stopping</string>
+    <string name="main_mode_internet">Web</string>
+    <string name="main_mode_setting">Setting</string>
+    <string name="main_mode_user">User</string>
+    <string name="main_mode_media">Media</string>
+    <string name="main_mode_more">More</string>
+
+    <!--服务窗口-->
+    <string name="server_time">Time</string>
+    <string name="server_distance">Distance/</string>
+    <string name="server_calories">Calorie/cal</string>
+    <string name="server_speed">Speed/</string>
+    <string name="server_slope">Incline/%</string>
+    <string name="Volume">Volume</string>
+
+    <!--&lt;!&ndash;设置界面&ndash;&gt;-->
+    <string name="language">Language</string>
+    <string name="skin">Skins</string>
+    <string name="timeset">Time</string>
+    <string name="brightness">Brightness</string>
+    <string name="tone_on">Alarm Open</string>
+    <string name="tone_off">Alarm Close</string>
+    <string name="sleep">Sleep</string>
+    <string name="min1">1Min</string>
+    <string name="min2">4.5Min</string>
+    <string name="min3">10Min</string>
+    <string name="min4">30Min</string>
+    <string name="Never">Never</string>
+    <string name="SorryRadix">Sorry, updating unit is not allowed when the treadmill is running.</string>
+    <string name="SorryLanguage">Sorry, updating language is not allowed when the treadmill is running</string>
+    <string name="SorrySleep">Sorry, updating sleep is not allowed when the treadmill is running</string>
+    <string name="SelectLanguage">Are you sure to change the language?</string>
+
+    <!--时间模式-->
+    <string name="TimeRange">Time Range：00:05 ~ 99:00</string>
+    <string name="Hours">Hours</string>
+    <string name="Minutes">Minutes</string>
+
+    <!--距离模式-->
+    <string name="DistanceRange">Distance Range：1.0 ~ 99.0</string>
+    <string name="KM">KM</string>
+
+    <!--卡路里模式-->
+    <string name="CalorieRange">Calorie Range： 50 ~ 9990</string>
+    <string name="Calorie">Calorie</string>
+
+    <!--训练模式-->
+    <string name="Program">Program</string>
+    <string name="Customization">Customization</string>
+    <string name="HRC">HRC</string>
+    <string name="BMI">BMI</string>
+
+    <!--预设训练模式-->
+    <string name="level20">Level(20Minutes)</string>
+    <string name="level30">Level(30Minutes)</string>
+    <string name="level40">Level(40Minutes)</string>
+    <string name="level50">Level(50Minutes)</string>
+    <string name="level60">Level(60Minutes)</string>
+    <string name="level90">Level(90Minutes)</string>
+    <string name="Warm">Warm</string>
+    <string name="Up">Up</string>
+    <string name="Climb">Climb</string>
+    <string name="Oxygen">Oxygen</string>
+    <string name="Health">Health</string>
+    <string name="Slim">Slim</string>
+    <string name="Expert">Expert</string>
+
+    <!--用户训练程序-->
+    <string name="PleaseSetTime">Please set the running time</string>
+
+    <!--心率控速模式-->
+    <string name="Age_Years">Age/Years</string>
+    <string name="HeartRate">Heart Rate</string>
+    <string name="Time">Time</string>
+    <string name="HrcRange">Age range: 15～80years Target rate range: 80~180 Time range: 5~99minutes</string>
+    <string name="TargetRate">Target Rate</string>
+    <string name="NoHeart">No Heart Beat Detected</string>
+
+    <!--BMI模式-->
+    <string name="Height_inch">Height/inch</string>
+    <string name="Weight_Ib">Weight/Ib</string>
+    <string name="Gender">Gender</string>
+    <string name="BmiRange">BMI: Underweight &lt;= 18 Normal: 18.1-25 At Risk: 25.1-28 Overweight &gt;= 28.1</string>
+    <string name="HoldHandrail">Please hold the handrail</string>
+    <string name="CalculatingBMI">Detected heart rate，system is calculating BMI...</string>
+    <string name="BmiUnderweight">BMI: Underweight &lt;= 18</string>
+    <string name="BmiNormal">BMI: Normal 18.1-25</string>
+    <string name="BmiRisk">BMI: At Risk 25.1-28</string>
+    <string name="BmiOverweight">BMI: Overweight &gt;= 28.1</string>
+
+    <!--用户管理-->
+    <!--个人信息-->
+    <string name="Profile">Profile</string>
+    <string name="Device">Device</string>
+    <string name="WorkoutRecords">Workout Records</string>
+    <string name="Name">Name</string>
+    <string name="NotSet1">(Not Set)</string>
+    <string name="NotSet2">Not Set</string>
+    <string name="Default">(Default)</string>
+    <string name="Age">Age</string>
+    <string name="Y">(Y)</string>
+    <string name="M_F">(M/F)</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Height">Height</string>
+    <string name="Height1">Height(cm)</string>
+    <string name="Height2">Height(inch)</string>
+    <string name="Weight">Weight</string>
+    <string name="Weight1">Weight(kg)</string>
+    <string name="Weight2">Weight(Ibs)</string>
+    <string name="Metric">Metric</string>
+    <string name="Imperial">Imperial</string>
+    <string name="UNITS">UNITS</string>
+    <string name="ChangeTheUnit">If you want to change the unit of measure for treadmill, please update it at setting menu.</string>
+    <string name="DeleteAll">Are you sure you want to delete all the data from the machine?</string>
+    <string name="signOut">Are you sure to sign out?</string>
+    <string name="signSuccess">Login Successfully ，Welcome Back!</string>
+    <string name="signFailed">Login Failed. Please check your email and password</string>
+    <!--设备信息-->
+    <string name="TotalTime">Total Time</string>
+    <string name="Hours1">(Hours)</string>
+    <string name="TotalDistance">Total Distance</string>
+    <string name="TotalCalorie">Total Calorie</string>
+    <string name="kcal">(kcal)</string>
+    <string name="TotalTimes">Total Times</string>
+    <string name="Times">(Times)</string>
+    <string name="AvgSpeed">Avg Speed</string>
+    <string name="LastRun">Last Run</string>
+    <string name="Data">(Data)</string>
+    <!--运动记录-->
+    <string name="NoRecord">No workout record is found!</string>
+    <string name="DayRun">Day Run</string>
+    <string name="NightRun">Night Run</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <!--登录注册忘记密码-->
+    <!--登录-->
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="ForgotPassword">Forgot Password</string>
+    <!--注册-->
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="BackToLogin">Back To Login</string>
+
+    <!--多媒体-->
+    <string name="Music">Music</string>
+    <string name="Video">Video</string>
+    <string name="Media_More">More</string>
+
+    <!--更多功能-->
+    <string name="MoreApplications">More Applications</string>
+    <string name="MoreProducts">More Products</string>
+    <string name="Calculator">Calculator</string>
+    <string name="SystemCleaning">System Cleaning</string>
+    <string name="CheckUpdates">Check for updates</string>
+    <string name="Files">Files</string>
+    <string name="LatestVersion">This is the latest version.</string>
+    <string name="Factory">Factory</string>
+
+    <!--换肤-->
+    <string name="skin_toast">Are you sure to set it as background?</string>
+
+    <!--系统清理-->
+    <string name="Hint">Hint</string>
+    <string name="SystemIsCleaning">System is cleaning the cache folder. Please wait…</string>
+    <string name="CleanedSuccessfully">The cache was cleaned successfully.</string>
+
+    <!--系统信息-->
+    <string name="System">System</string>
+    <string name="Software">Software</string>
+    <string name="VersionName">Version Name</string>
+    <string name="VersionCode">Version Code</string>
+    <string name="ReleaseTime">Release Time</string>
+    <string name="Driver">Driver</string>
+    <string name="OperatingSystem">Operating System</string>
+    <string name="Hardware">Hardware</string>
+    <string name="BatchId">Batch Id</string>
+    <string name="MaxSpeed">Max Speed</string>
+    <string name="MaxIncline">Max Incline</string>
+    <string name="Step">Step</string>
+    <string name="Screen">Screen</string>
+    <string name="Resolution">Resolution</string>
+    <string name="Size">Size(Inch)</string>
+    <string name="DPI">DPI</string>
+    <string name="PORT">PORT</string>
+    <string name="Buzzer">Buzzer</string>
+
+    <!--错误代码-->
+    <string name="E01">E01-Communication error</string>
+    <string name="E02">E02-Motor is losing</string>
+    <string name="E03">E03-No speed signal</string>
+    <string name="E05">E05-Motor overflow</string>
+    <string name="E07">E07-Safety lock is losing</string>
+
+    <!--运动结果-->
+    <string name="Records">Records</string>
+    <string name="ScanQRcode">Scan this QR code</string>
+    <string name="Share">Social Share:</string>
+    <string name="MaxSpeed2">Max Speed:</string>
+    <string name="AverageSpeed">Average Speed:</string>
+    <string name="distance">Distance</string>
+    <string name="Calories">Calorie</string>
+
+
+    <string name="facebook_app_id">630738743932668</string>
+    <string name="fb_login_protocol_scheme">fb630738743932668</string>
+
+</resources>

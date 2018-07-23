@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pg_bmi"
+        android:layout_width="@dimen/my60dp"
+        android:layout_height="@dimen/my60dp"
+        android:layout_marginTop="@dimen/my20dp"
+        android:layout_gravity="center"
+        app:cpv_color="@color/colorGreen"
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_showHeart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my20dp"
+        android:src="@drawable/heart_rate"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_bmiResult"
+        android:layout_width="@dimen/my200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/my20dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/my48dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_keep"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/my50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/my15dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/my20dp"
+        android:visibility="gone" />
+
+    <!--android:text="已经检测到心率，正在检测BMI值"-->
+
+</LinearLayout>

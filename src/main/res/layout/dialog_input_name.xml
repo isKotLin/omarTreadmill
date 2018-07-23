@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my400dp"
+    android:layout_height="@dimen/my130dp"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/inputname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my20dp"
+        android:layout_marginTop="@dimen/my15dp"
+        android:text="@string/Name"
+        android:textColor="@color/colorBlack2"
+        android:textSize="@dimen/my16dp"/>
+
+    <EditText
+        android:id="@+id/et_inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/my8dp"
+        android:hint="@string/NotSet1"
+        android:paddingLeft="@dimen/my10dp"
+        android:textColorHint="@color/colorGray"
+        android:textColor="@color/colorBlack2"
+        android:textSize="@dimen/my14dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/my10dp">
+        <TextView
+            android:id="@+id/btn_commit_name"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/OK2"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my12dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/btn_cancel_name"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/my12dp"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/btn_commit_name"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

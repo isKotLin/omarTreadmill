@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my400dp"
+    android:layout_height="@dimen/my140dp"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/my18dp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/Gender"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/my20dp"
+        android:layout_marginLeft="@dimen/my20dp"/>
+
+    <RadioGroup
+        android:id="@+id/Sex_rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/my14dp">
+        <RadioButton
+            android:id="@+id/rb_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radiobtn_selector"
+            android:background="@color/transparentss"
+            android:paddingLeft="@dimen/my10dp"
+            android:text="@string/Male"
+            android:textSize="@dimen/my14dp"
+            android:textColor="@color/colorBlack"/>
+        <RadioButton
+            android:id="@+id/rb_woman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my4dp"
+            android:button="@drawable/radiobtn_selector"
+            android:background="@color/transparentss"
+            android:paddingLeft="@dimen/my10dp"
+            android:text="@string/Female"
+            android:textSize="@dimen/my14dp"
+            android:textColor="@color/colorBlack"/>
+    </RadioGroup>
+
+</LinearLayout>
